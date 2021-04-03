@@ -1,3 +1,102 @@
+.cardPicture{
+    width: 140px;
+    height: 115px;
+    background: #0275d8;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cardPicture__pictureIcon{
+    position: absolute;
+    top: 1.75rem;
+    left: 3.25rem;
+}
+
+.cardPicture p{
+    position: absolute;
+    top: 3.5rem;
+    left: 2.75rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.cardPlace{
+    width: 140px;
+    height: 115px;
+    background: #7b44ca;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.cardPlace__placeIcon{
+    position: absolute;
+    top: 1.75rem;
+    left: 3.25rem;
+}
+
+.cardPlace p{
+    position: absolute;
+    top: 3.5rem;
+    left: 2.75rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.cardColosseum{
+    width: 340px;
+    height: 245px;
+    background: url("./images/bg-4.png");
+    position: relative;
+    float: left;
+}
+
+.cardColosseum__dotIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 18rem;
+}
+
+.cardColosseum__buttonItaly{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 4rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+}
+
+.cardColosseum__bodyHeader{
+    font-weight: lighter;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 1.5rem;
+    font-family: sans-serif;
+}
+
+.cardColosseum p{
+    font-weight: lighter;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    font-family: sans-serif;
+}
+
 .cardVenice{
     width: 340px;
     height: 416px;
