@@ -1,3 +1,4 @@
+/*右上角的Picture卡片*/
 .cardPicture{
     width: 140px;
     height: 115px;
@@ -25,6 +26,7 @@
     color: white;
 }
 
+/*右上角的Place卡片*/
 .cardPlace{
     width: 140px;
     height: 115px;
@@ -50,6 +52,7 @@
     color: white;
 }
 
+/*右下角的Colosseum卡片*/
 .cardColosseum{
     width: 340px;
     height: 245px;
@@ -97,6 +100,7 @@
     font-family: sans-serif;
 }
 
+/*左边的Venice卡片*/
 .cardVenice{
     width: 340px;
     height: 416px;
@@ -152,80 +156,8 @@
     z-index: 1;
 }
 
-
-/*Florence卡片*/
-/*第一种方法 所有子元素都是relative position */
-/*.cardFlorence {*/
-/*    width: 736px;*/
-/*    height: 416px;*/
-/*    background-image: url("./images/bg-2.png");*/
-/*}*/
-
-/*.cardFlorence h1{*/
-/*    font-weight: lighter;*/
-/*    color: white;*/
-/*    font-size: 3rem;*/
-/*    position: relative;*/
-/*    top: 15rem;*/
-/*    left: 3rem;*/
-/*    font-family: sans-serif;*/
-/*    z-index: 1;*/
-/*}*/
-
-/*.cardFlorence h2{*/
-/*    font-weight: lighter;*/
-/*    color: #53CBA0;*/
-/*    font-size: 1rem;*/
-/*    position: relative;*/
-/*    top: 17rem;*/
-/*    left: 3rem;*/
-/*    font-family: sans-serif;*/
-/*    z-index: 1;*/
-/*}*/
-
-/*.cardFlorence__buttonView{*/
-/*    width: 8rem;*/
-/*    height: 2.5rem;*/
-/*    position: relative;*/
-/*    top: 10.5rem;*/
-/*    left: 35rem;*/
-/*    color: white;*/
-/*    background-color: #0275d8;*/
-/*    border: none;*/
-/*    border-radius: 25px;*/
-/*    font-size: 1rem;*/
-/*    z-index: 1;*/
-
-/*}*/
-/*.cardFlorence__buttonItaly{*/
-/*    width: 4rem;*/
-/*    position: relative;*/
-/*    top: -6rem;*/
-/*    left: 30rem;*/
-/*}*/
-
-/*.cardFlorence__banner{*/
-/*    background-color: #53CBA0;*/
-/*    width: 0.3rem;*/
-/*    height: 4rem;*/
-/*    position: relative;*/
-/*    top: 6rem;*/
-/*    left: 0.5rem;*/
-/*    z-index: 1;*/
-/*}*/
-
-/*.cardFlorence p{*/
-/*    position: relative;*/
-/*    top: -24rem;*/
-/*    left: -8rem;*/
-/*    color: floralwhite;*/
-/*    opacity: 0.1;*/
-/*    font-size: 18rem;*/
-/*    font-family: sans-serif;*/
-/*    z-index: 0;*/
-/*}*/
-
-/*第二种方法 父元素relative，子元素absolute */
+/*中间的Florence卡片*/
+/*第一种方法 父元素relative，子元素absolute */
 .cardFlorence {
     width: 736px;
     height: 416px;
@@ -299,3 +231,77 @@
     font-family: sans-serif;
     z-index: 0;
 }
+
+
+
+/*中间的Florence卡片*/
+/*第二种方法 所有子元素都是relative position */
+/*.cardFlorence {*/
+/*    width: 736px;*/
+/*    height: 416px;*/
+/*    background-image: url("./images/bg-2.png");*/
+/*}*/
+
+/*.cardFlorence h1{*/
+/*    font-weight: lighter;*/
+/*    color: white;*/
+/*    font-size: 3rem;*/
+/*    position: relative;*/
+/*    top: 15rem;*/
+/*    left: 3rem;*/
+/*    font-family: sans-serif;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.cardFlorence h2{*/
+/*    font-weight: lighter;*/
+/*    color: #53CBA0;*/
+/*    font-size: 1rem;*/
+/*    position: relative;*/
+/*    top: 17rem;*/
+/*    left: 3rem;*/
+/*    font-family: sans-serif;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.cardFlorence__buttonView{*/
+/*    width: 8rem;*/
+/*    height: 2.5rem;*/
+/*    position: relative;*/
+/*    top: 10.5rem;*/
+/*    left: 35rem;*/
+/*    color: white;*/
+/*    background-color: #0275d8;*/
+/*    border: none;*/
+/*    border-radius: 25px;*/
+/*    font-size: 1rem;*/
+/*    z-index: 1;*/
+
+/*}*/
+/*.cardFlorence__buttonItaly{*/
+/*    width: 4rem;*/
+/*    position: relative;*/
+/*    top: -6rem;*/
+/*    left: 30rem;*/
+/*}*/
+
+/*.cardFlorence__banner{*/
+/*    background-color: #53CBA0;*/
+/*    width: 0.3rem;*/
+/*    height: 4rem;*/
+/*    position: relative;*/
+/*    top: 6rem;*/
+/*    left: 0.5rem;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.cardFlorence p{*/
+/*    position: relative;*/
+/*    top: -24rem;*/
+/*    left: -8rem;*/
+/*    color: floralwhite;*/
+/*    opacity: 0.1;*/
+/*    font-size: 18rem;*/
+/*    font-family: sans-serif;*/
+/*    z-index: 0;*/
+/*}*/
