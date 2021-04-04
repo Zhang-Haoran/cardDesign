@@ -56,7 +56,7 @@
 .cardColosseum{
     width: 340px;
     height: 245px;
-    background: url("./images/bg-4.png");
+    background: url("../images/bg-4.png");
     position: relative;
     float: left;
 }
@@ -106,7 +106,7 @@
     height: 410px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
-    background: url("./images/bg-3.png") no-repeat;
+    background: url("../images/bg-3.png") no-repeat;
     position: relative;
     float: left;
 }
@@ -164,7 +164,7 @@
 .cardFlorence {
     width: 736px;
     height: 420px;
-    background-image: url("./images/bg-2.png");
+    background-image: url("../images/bg-2.png");
     position: relative;
     float: left;
 }
