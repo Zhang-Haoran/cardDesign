@@ -1,3 +1,57 @@
+/*左下部Buano卡片*/
+.cardBurano{
+    background: url("../images/bg-1.png");
+    width: 340px;
+    height: 400px;
+    position: relative;
+    float: left;
+}
+
+.cardBurano__heartIcon{
+    position: absolute;
+    top: 3rem;
+    left: 18rem;
+}
+
+.cardBurano__title{
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    top: 18rem;
+    left: 3rem;
+}
+
+.cardBurano__subtitle{
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    top: 21rem;
+    left :3rem;
+}
+
+.cardBurano__button{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 2rem;
+    top: 20rem;
+    left: 13.5rem;
+}
+
+.cardBurano__banner{
+    background-color: red;
+    width: 21.3rem;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
 /*右上角的Picture卡片*/
 .cardPicture{
     width: 140px;
@@ -7,7 +61,7 @@
     float: left;
     border-radius: 5px;
     margin-right: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .cardPicture__pictureIcon{
@@ -103,7 +157,7 @@
 /*左边的Venice卡片*/
 .cardVenice{
     width: 340px;
-    height: 410px;
+    height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
     background: url("../images/bg-3.png") no-repeat;
@@ -162,8 +216,8 @@
 /*中间的Florence卡片*/
 /*第一种方法 父元素relative，子元素absolute */
 .cardFlorence {
-    width: 736px;
-    height: 420px;
+    width: 722px;
+    height: 400px;
     background-image: url("../images/bg-2.png");
     position: relative;
     float: left;
