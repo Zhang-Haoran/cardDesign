@@ -113,6 +113,7 @@
     background: url("../images/bg-4.png");
     position: relative;
     float: left;
+    margin-bottom: 0.5rem;
 }
 
 .cardColosseum__dotIcon{
@@ -158,11 +159,13 @@
 .cardVenice{
     width: 340px;
     height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     border-radius: 10px;
     background: url("../images/bg-3.png") no-repeat;
     position: relative;
     float: left;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .cardVenice__buttonItaly{
@@ -221,6 +224,8 @@
     background-image: url("../images/bg-2.png");
     position: relative;
     float: left;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .cardFlorence h1{
